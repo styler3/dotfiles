@@ -58,6 +58,7 @@ export BROWSER=w3m
 # general aliases
 alias nb='newsbeuter'
 alias yb="newsbeuter -u $HOME/.newsbeuter/youtubeurls -c $HOME/.newsbeuter/youcache.db -C $HOME/.newsbeuter/youtubeconfig"
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Markdown reader
 function md {
