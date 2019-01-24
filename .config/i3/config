@@ -178,6 +178,3 @@ bar {
         status_command i3status
 	mode hide
 }
-
-# Set the wallpaper to miniature calendar
-exec ~/.scripts/calendar
