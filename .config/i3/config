@@ -129,6 +129,9 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Are you sure you want to log out' -b 'Log out' 'i3-msg exit'"
 
+# lock the screen
+bindsym $mod+o exec i3lock -c 000000 -e -p default -d -i /home/sam/xkcd/current-dark.png
+
 # set border style
 new_window pixel 4
 # hide borders cleverly
@@ -178,3 +181,5 @@ bar {
 	status_command i3status
 	mode hide
 }
+
+exec ~/.scripts/xkcd
