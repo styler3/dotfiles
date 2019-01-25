@@ -182,4 +182,7 @@ bar {
 	mode hide
 }
 
+# Blue light suppression
+exec redshift
+
 exec ~/.scripts/xkcd
