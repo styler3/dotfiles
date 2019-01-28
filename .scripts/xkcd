@@ -10,7 +10,7 @@ setWallpaper () {
 setWallpaper
 
 # Wait for a connection
-for i in {1..50}; do ping -c1 xkcd.com && break; done
+for i in {1..50}; do ping -c1 xkcd.com && break; sleep 10;  done
 
 CURRENT_COMIC_URL=`curl https://xkcd.com/info.0.json | jq -r .img`
 OUT_FILE=$OUT_DIR/`date +"%Y%m%d"`.png
